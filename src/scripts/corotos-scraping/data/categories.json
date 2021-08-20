@@ -1,0 +1,62 @@
+[
+  {
+    "provinceName": "Todas las categorías",
+    "controlName": "q[category_id_eq]",
+    "id": ""
+  },
+  {
+    "provinceName": "Inmuebles en alquiler",
+    "controlName": "q[category_id_eq]",
+    "id": "1"
+  },
+  {
+    "provinceName": "Inmuebles en venta",
+    "controlName": "q[category_id_eq]",
+    "id": "2"
+  },
+  {
+    "provinceName": "Vehículos",
+    "controlName": "q[category_id_eq]",
+    "id": "3"
+  },
+  {
+    "provinceName": "Hogar",
+    "controlName": "q[category_id_eq]",
+    "id": "4"
+  },
+  {
+    "provinceName": "Bebés y Niños",
+    "controlName": "q[category_id_eq]",
+    "id": "5"
+  },
+  {
+    "provinceName": "Moda y Belleza",
+    "controlName": "q[category_id_eq]",
+    "id": "6"
+  },
+  {
+    "provinceName": "Deportes y Entretenimiento",
+    "controlName": "q[category_id_eq]",
+    "id": "7"
+  },
+  {
+    "provinceName": "Electrónica",
+    "controlName": "q[category_id_eq]",
+    "id": "8"
+  },
+  {
+    "provinceName": "Empleo",
+    "controlName": "q[category_id_eq]",
+    "id": "9"
+  },
+  {
+    "provinceName": "Negocios y Servicios",
+    "controlName": "q[category_id_eq]",
+    "id": "10"
+  },
+  {
+    "provinceName": "Otros",
+    "controlName": "q[category_id_eq]",
+    "id": "11"
+  }
+]

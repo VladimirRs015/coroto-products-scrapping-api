@@ -1,0 +1,162 @@
+[
+  {
+    "provinceName": "Toda República Dominicana",
+    "controlName": "q[province_id_eq]",
+    "id": ""
+  },
+  {
+    "provinceName": "Azua",
+    "controlName": "q[province_id_eq]",
+    "id": "1"
+  },
+  {
+    "provinceName": "Bahoruco",
+    "controlName": "q[province_id_eq]",
+    "id": "2"
+  },
+  {
+    "provinceName": "Barahona",
+    "controlName": "q[province_id_eq]",
+    "id": "3"
+  },
+  {
+    "provinceName": "Dajabón",
+    "controlName": "q[province_id_eq]",
+    "id": "4"
+  },
+  {
+    "provinceName": "Duarte",
+    "controlName": "q[province_id_eq]",
+    "id": "5"
+  },
+  {
+    "provinceName": "Elías Piña",
+    "controlName": "q[province_id_eq]",
+    "id": "7"
+  },
+  {
+    "provinceName": "El Seibo",
+    "controlName": "q[province_id_eq]",
+    "id": "6"
+  },
+  {
+    "provinceName": "Espaillat",
+    "controlName": "q[province_id_eq]",
+    "id": "8"
+  },
+  {
+    "provinceName": "Hato Mayor",
+    "controlName": "q[province_id_eq]",
+    "id": "9"
+  },
+  {
+    "provinceName": "Hermanas Mirabal",
+    "controlName": "q[province_id_eq]",
+    "id": "10"
+  },
+  {
+    "provinceName": "Independencia",
+    "controlName": "q[province_id_eq]",
+    "id": "11"
+  },
+  {
+    "provinceName": "La Altagracia",
+    "controlName": "q[province_id_eq]",
+    "id": "12"
+  },
+  {
+    "provinceName": "La Romana",
+    "controlName": "q[province_id_eq]",
+    "id": "13"
+  },
+  {
+    "provinceName": "La Vega",
+    "controlName": "q[province_id_eq]",
+    "id": "14"
+  },
+  {
+    "provinceName": "María Trinidad Sánchez",
+    "controlName": "q[province_id_eq]",
+    "id": "15"
+  },
+  {
+    "provinceName": "Monseñor Nouel",
+    "controlName": "q[province_id_eq]",
+    "id": "16"
+  },
+  {
+    "provinceName": "Monte Cristi",
+    "controlName": "q[province_id_eq]",
+    "id": "17"
+  },
+  {
+    "provinceName": "Monte Plata",
+    "controlName": "q[province_id_eq]",
+    "id": "18"
+  },
+  {
+    "provinceName": "Pedernales",
+    "controlName": "q[province_id_eq]",
+    "id": "19"
+  },
+  {
+    "provinceName": "Peravia",
+    "controlName": "q[province_id_eq]",
+    "id": "20"
+  },
+  {
+    "provinceName": "Puerto Plata",
+    "controlName": "q[province_id_eq]",
+    "id": "21"
+  },
+  {
+    "provinceName": "Samaná",
+    "controlName": "q[province_id_eq]",
+    "id": "22"
+  },
+  {
+    "provinceName": "Sánchez Ramírez",
+    "controlName": "q[province_id_eq]",
+    "id": "30"
+  },
+  {
+    "provinceName": "San Cristóbal",
+    "controlName": "q[province_id_eq]",
+    "id": "23"
+  },
+  {
+    "provinceName": "San José de Ocoa",
+    "controlName": "q[province_id_eq]",
+    "id": "24"
+  },
+  {
+    "provinceName": "San Juan",
+    "controlName": "q[province_id_eq]",
+    "id": "25"
+  },
+  {
+    "provinceName": "San Pedro de Macorís",
+    "controlName": "q[province_id_eq]",
+    "id": "26"
+  },
+  {
+    "provinceName": "Santiago",
+    "controlName": "q[province_id_eq]",
+    "id": "27"
+  },
+  {
+    "provinceName": "Santiago Rodríguez",
+    "controlName": "q[province_id_eq]",
+    "id": "28"
+  },
+  {
+    "provinceName": "Santo Domingo",
+    "controlName": "q[province_id_eq]",
+    "id": "29"
+  },
+  {
+    "provinceName": "Valverde",
+    "controlName": "q[province_id_eq]",
+    "id": "31"
+  }
+]
