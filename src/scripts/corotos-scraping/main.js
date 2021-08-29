@@ -1,5 +1,5 @@
 import fetch from "node-fetch";
-import cheerio from "cheerio";
+
 import {
   ENDPOINT_MAIN_URL,
   SEARCHES_ENDPOINT,
@@ -9,6 +9,7 @@ import {
 } from "./enpoints.js";
 
 import getItemsDataFromRowDoc from "./getItemsDataFromRawDoc.js";
+import transformCategoriesData from "./transformCategoriesData.js";
 
 export async function getRawDataFromUrl(url) {
   return await fetch(url).then((res) => res.text());

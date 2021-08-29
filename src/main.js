@@ -1,4 +1,6 @@
 import express from "express";
+import cors from "cors";
+
 import {
   getCategoriesData,
   getItemsFromCorotos,
@@ -15,11 +17,18 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: false }));
 
+app.use(
+  cors({
+    origin: "*",
+  })
+);
+
 app.get("/v1/listing", (req, res) => {
   const { page, search, filter } = req.query;
 
   return getItemsFromCorotos({ page, search })
     .then((items) => {
+      console.log(items);
       return res.status(200).json(items);
     })
     .catch((error) => {
@@ -30,7 +39,6 @@ app.get("/v1/listing", (req, res) => {
 
 app.get("/v1/suggestions/autocomplete", (req, res) => {
   const { word } = req.query;
-  console.log(word);
   getItemsSuggestionAutocomplete(word || "").then((suggestions) => {
     return res.status(200).json({
       suggestions,
