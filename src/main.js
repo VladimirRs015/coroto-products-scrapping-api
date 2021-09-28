@@ -23,9 +23,20 @@ app.use(
   })
 );
 
+app.get("/dev/v1/listing", (req, res) => {
+  const { page, search, filter } = req.query;
+  return getItemsFromCorotos({ page, search })
+    .then((items) => {
+      console.log(items);
+      return res.status(200).json(items);
+    })
+    .catch((error) => {
+      console.log("TODO ", error.message);
+      res.status(400).send("Something went wrong trying getting items");
+    });
+});
 app.get("/v1/listing", (req, res) => {
   const { page, search, filter } = req.query;
-
   return getItemsFromCorotos({ page, search })
     .then((items) => {
       console.log(items);
@@ -47,6 +58,8 @@ app.get("/v1/suggestions/autocomplete", (req, res) => {
 });
 
 // https://www.corotos.com.do/shops?q%5Btitle_cont%5D=&q%5Bprovince_id_eq%5D=29&q%5Bcategory_id_eq%5D=3
+
+app.get("/development/", (req, res) => {});
 
 app.get("/v1/details/:id", (req, res) => {
   const { id } = req.params;
@@ -89,6 +102,10 @@ app.get("/v1/listing/subcategories/:categoryid", (req, res) => {
 app.get("/query", (req, res) => {
   console.log(req.query);
   res.json(req.query);
+});
+
+app.get("/health", (_, res) => {
+  res.send("ok");
 });
 
 app.listen(CONFIG.PORT, () => console.log("Server on port ", CONFIG.PORT));
